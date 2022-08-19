@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {StyleSheet, View, Image} from 'react-native';
 import React from 'react';
 import Icon from 'react-native-vector-icons/AntDesign';
 import Stories from './Stories';
