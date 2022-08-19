@@ -7,21 +7,17 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import {ScrollView, StyleSheet} from 'react-native';
 import Header from './components/Header';
+import Post from './components/Post';
+
 const App = () => {
   return (
     <ScrollView
       contentInsetAdjustmentBehavior="automatic"
       style={styles.scrollView}>
       <Header />
+      <Post username="Berkan Ankal" />
     </ScrollView>
   );
 };

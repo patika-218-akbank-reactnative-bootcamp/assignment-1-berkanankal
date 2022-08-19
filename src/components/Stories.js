@@ -1,14 +1,18 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {ScrollView, StyleSheet, View} from 'react-native';
 import React from 'react';
 
 const Stories = () => {
   return (
-    <View style={styles.stories}>
-      <View style={styles.story} />
-      <View style={styles.story} />
-      <View style={styles.story} />
-      <View style={styles.story} />
-    </View>
+    <ScrollView horizontal>
+      <View style={styles.stories}>
+        <View style={styles.story} />
+        <View style={styles.story} />
+        <View style={styles.story} />
+        <View style={styles.story} />
+        <View style={styles.story} />
+        <View style={styles.story} />
+      </View>
+    </ScrollView>
   );
 };
 
